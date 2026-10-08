@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            padding: 25px;
+            flex-wrap: wrap;
+        }
+        .head h1{
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+
+        }
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .nav{
+            margin-top: 10px;
+        }
+.nav a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px;
+}
+.con{
+    width: 600px;
+    margin: 100px auto;
+    justify-content: center;
+  
+    box-shadow: 0px 0px 12px rgb(176, 172, 172);
+}
+.product{
+    display: flex;
+    gap: 35px;
+    align-items: flex-start;
+}
+.product img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.details p{
+    color: green;
+    font-size: 20px;
+}
+.details{
+    width: 300px;
+}
+.details h4{
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.details h6{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.price{
+    color: #70a090;
+    font-size: 18px;
+}
+form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    box-sizing: border-box;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head"><h1>My Store</h1></div>
+        <div class="nav">
+            <!-- <a href="">Home</a>
+            <a href="">Products</a> -->
+            <a href="index.html">← Bact to Home</a>
+
+        </div>
+    </div>
+
+
+<div class="con">
+    <div class="product">
+<img src="https://picsum.photos/seed/picsum/200/300?300" alt="">
+<div class="details">
+<h4>Product 1</h4><br>
+<p><b>10$</b></p><br>
+
+<h6>High quality Products ship all over the world</h6>
+
+
+<br><br>
+<form action="">
+
+<input type="text" name="name" placeholder="enter name" required>
+<input type="text" name="name" placeholder="enter address" required>
+<input type="number" name="number" placeholder="quantity" required>
+<button>Purchase</button>
+<br><br><br>
+</form>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
